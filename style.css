@@ -1,0 +1,120 @@
+header {
+    background: url(images/central_park.jpg) 0 -200px no-repeat;
+    /* places image as background */
+    background-size: 1500px;
+    height: 400px;
+    /* set the header height */
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav Bar Selections */
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:link {
+    /* Before click */
+    color: #000;
+}
+
+li a:visited {
+    /* After click */
+    color: #818db3;
+}
+
+li a:hover {
+    /* Mouse over */
+    color: #333;
+}
+
+li a:active {
+    /* Mouse over */
+    color: #753a30;
+}
+
+/* Nav Bar */
+nav {
+    background-color: rgb(255, 245, 238);
+    height: 50px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+/* Main Area */
+main {
+    margin: 50px;
+}
+
+main h1 {
+    color: rgb(129, 141, 179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Table Style */
+table {
+    margin-top: 35px;
+}
+
+table,
+caption,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+
+caption {
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
+
+
+label {
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+input {
+    width: 300px;
+}
+
+input[type="radio"] {
+    width: 25px;
+}
+
+textarea {
+    width: 300px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px 0 10px 0;
+    width: 100px;
+}
+
+/* Footer Style */
+footer {
+    height: 40px;
+    background-color: rgb(129, 141, 179);
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(211, 218, 240);
+}
